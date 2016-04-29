@@ -9,11 +9,11 @@
 
     </header>
     <main>
-      <form>
+      <form id="conversionForm">
         <fieldset>
-          <div id="dropdown">
+          <div>
             <h5>Please select a type of conversion.</h5>
-            <select name="conversion">
+            <select name="conversion" id="dropdown">
               <option value="inches" class="standard">Inches to Centimeters</option>
               <option value="cm">Centimeters to Inches</option>
               <option value="flOz" class="standard">Fluid Ounces to Mililiters</option>
@@ -27,10 +27,12 @@
             </select>
           </div>
           <div>
-            <label for="rawValue">Enter the value you wish to Convert.</label>
-            <input name="rawValue" type="number" min="0" step="0.01" required id="rawValue"/>
+            <label for="rawValue">Enter the value you wish to Convert: </label>
+            <input name="rawValue" type="number" min="0" step="0.001" required id="rawValue"/>
           </div>
-          <div id="results">
+          <div id="resultsBox">
+            <label for="results">Results: </label>
+            <input name="results" type="text" disabled id="results"/>
           </div>
           <button type="submit">Calculate</button>
         </fieldset>
