@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Metric Conversion</title>
+  </head>
+  <body>
+    <header>
+
+    </header>
+    <main>
+      <form>
+        <fieldset>
+          <div id="dropdown">
+            <h5>Please select a type of conversion.</h5>
+            <select name="conversion">
+              <option value="inches" class="standard">Inches to Centimeters</option>
+              <option value="cm">Centimeters to Inches</option>
+              <option value="flOz" class="standard">Fluid Ounces to Mililiters</option>
+              <option value="ml">milliliters to Fluid Ounces</option>
+              <option value="miles" class="standard">Miles to Kilometers</option>
+              <option value="km">kilometers to Miles</option>
+              <option value="lbs" class="standard">Pounds to Kilograms</option>
+              <option value="kg">Kilograms to Pounds</option>
+              <option value="tons" class="standard">Standard Tons to Metric Tons</option>
+              <option value="mTons">Metric Tons to Standard Tons</option>
+            </select>
+          </div>
+          <div>
+            <label for="rawValue">Enter the value you wish to Convert.</label>
+            <input name="rawValue" type="number" min="0" step="0.01" required id="rawValue"/>
+          </div>
+          <div id="results">
+          </div>
+          <button type="submit">Calculate</button>
+        </fieldset>
+      </form>
+    </main>
+
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>
