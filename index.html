@@ -3,46 +3,47 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
-    <div>
+    <div class="outside-container">
       <img src="imgs/header_noaa.png" />
       <img src="imgs/header_nws.png" />
-      <img src="imgs/header_doc.png" />
+      <img id="headerright" src="imgs/header_doc.png" />
       <!-- header -->
     </div>
 
-    <div>
-      <h5>HOME</h5>
-      <h5>FORECAST</h5>
-      <h5>PAST WEATHER</h5>
-      <h5>SAFETY</h5>
-      <h5>INFORMATION</h5>
-      <h5>EDUCATION</h5>
-      <h5>NEWS</h5>
-      <h5>SEARCH</h5>
-      <h5>ABOUT</h5>
+    <div id="navbar">
+      <h5 class="navitems">HOME</h5>
+      <h5 class="navitems">FORECAST</h5>
+      <h5 class="navitems">PAST WEATHER</h5>
+      <h5 class="navitems">SAFETY</h5>
+      <h5 class="navitems">INFORMATION</h5>
+      <h5 class="navitems">EDUCATION</h5>
+      <h5 class="navitems">NEWS</h5>
+      <h5 class="navitems">SEARCH</h5>
+      <h5 class="navitems">ABOUT</h5>
       <!-- navigation bar -->
     </div>
 
-    <div>
+    <div class="side-by-side">
       <!-- breaking news -->
-      <div>
+      <div id="search">
         <!-- search -->
-        <div>
+        <div id="search-and-go">
           <!-- search bar and go button -->
-          <div>
+          <div id="searchbar">
             <!-- search bar -->
           </div>
           <button>Go</button>
         </div>
-        <p>View Location Examples</p>
-        <p>Your local forecast office is</p>
-        <h3>Seattle, WA</h3>
-          <div>
-            <p>En Espanol</p>
+        <p class="fake-link">View Location Examples</p>
+        <p class="small-bold">Your local forecast office is</p>
+        <h3 class="fake-link">Seattle, WA</h3>
+          <div class="side-by-side">
+            <p class="fake-link">En Espanol</p>
             <img>orange cross</img>
-            <p>Share</p>
+            <p class="fake-link">Share</p>
             <img />
             <img />
             <img />
@@ -51,7 +52,7 @@
           </div>
       </div>
 
-      <div>
+      <div id="news-story">
         <!-- news story -->
         <h4>Rain, thunderstorms developing from southern Plains to mid-Atlantic</h4>
         <p>A slow-moving storm system will be the focus for rain and thunderstorms from the southern Plains across to the Southeast and Mid-Atlantic States early this week. Locally heavy rainfall could lead to isolated flash flooding, especially in the mid-Mississippi River Valley on Tuesday. Isolated severe thunderstorms will be possible Tuesday near the Gulf Coast associated with the same storm system.</p>
@@ -59,19 +60,19 @@
       </div>
     </div>
 
-    <div>
+    <div class = "section">
       <!-- current conditions -->
-      <div>
+      <div class="gray-header">
       <!-- current conditions title -->
-      <p>Current conditions at</p>
+      <p class="small-bold">Current conditions at</p>
       <h4>Seattle, Seattle Boeing Field (KBFI)</h4>
       <p><strong>Lat:</strong> 47.57 o N  <strong>Lon:</strong> -122.41 o W  <strong>Elev:</strong> 16ft.</p>
       </div>
 
-      <div>
+      <div class="side-by-side">
         <!-- current information -->
         <div>
-          <img src="a-few-clouds.png" />
+          <img src="imgs/a-few-clouds.png" />
         </div>
 
         <div>
@@ -80,8 +81,8 @@
           <h3>7 o C</h3>
         </div>
 
-        <div>
-          <div>
+        <div class="side-by-side">
+          <div class="small-bold">
             <p>Humidity</p>
             <p>Wind Speed</p>
             <p>Barometer</p>
@@ -103,7 +104,7 @@
 
           <div>
             <ul>
-              <li>More Information:</li>
+              <li class="small-bold">More Information:</li>
               <li>Local Forecast Office</li>
               <li>More Local Wx</li>
               <li>3 Day History</li>
@@ -116,18 +117,18 @@
       </div>
     </div>
 
-    <div>
+    <div class="section">
       <!-- forecast -->
 
-      <div>
+      <div class="gray-header">
         <!-- forecast title -->
-        <p>Extended Forecast for</p>
+        <p class="small-bold">Extended Forecast for</p>
         <h4>2 Miles NW West Seattle WA</h4>
       </div>
 
       <div>
         <!-- forecast info -->
-        <div>
+        <div class="side-by-side small-bold">
           <!-- days of the week -->
           <p>Tonight</p>
           <p>Monday</p>
@@ -140,7 +141,7 @@
           <p>Thursday Night</p>
         </div>
 
-        <div>
+        <div class="side-by-side">
           <!-- images -->
           <img src="imgs/nshra60.png" />
           <img src="imgs/DualImage.png" />
@@ -153,7 +154,7 @@
           <img src="imgs/nsct.png" />
         </div>
 
-        <div>
+        <div class="side-by-side">
           <!-- explanation of weather -->
           <p>Showers Likely</p>
           <p>Showers Likely then Chance Showers</p>
@@ -166,7 +167,7 @@
           <p>Partly Cloudy</p>
         </div>
 
-        <div>
+        <div class="side-by-side">
           <!-- highs and lows -->
           <p>Low: 40 o F</p>
           <p>High: 50 o F</p>
