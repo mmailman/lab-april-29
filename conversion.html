@@ -3,16 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title>Metric Conversion</title>
+    <link rel="stylesheet" type="text/css" href="css/conversion.css">
   </head>
   <body>
     <header>
-
+        <nav><a href="index.html">Check out our sweet weather site</a></nav>
     </header>
     <main>
       <form id="conversionForm">
         <fieldset>
           <div>
-            <h5>Please select a type of conversion.</h5>
+            <legend>Please select a type of conversion.</legend>
             <select name="conversion" id="dropdown">
               <option value="inches" class="standard">Inches to Centimeters</option>
               <option value="cm">Centimeters to Inches</option>
@@ -37,6 +38,13 @@
           <button type="submit">Calculate</button>
         </fieldset>
       </form>
+
+      <section id="listContainer">
+        <ul id="resultsList">
+        </ul>
+        <button id="clearList">Clear Results
+        </button>
+      </section>
     </main>
 
     <script type="text/javascript" src="js/app.js"></script>
