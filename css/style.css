@@ -39,11 +39,21 @@ button {
 
 .side-by-side {
   display: flex;
+  align-items: center;
+}
+
+.first-container {
+  display: flex;
+  align-items: flex-start;
 }
 
 .gray-header {
   background-color: rgb(204, 198, 198);
   border-bottom: 1px solid rgb(164, 171, 171);
+  margin-top: 0px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
 }
 
 .section {
@@ -63,9 +73,131 @@ button {
 .small-bold {
   font-size: 10px;
   font-family: sans-serif;
+  margin-top: 0px;
+  font-weight: bold;
 }
 
 .fake-link {
   text-decoration: underline;
   color: blue;
+  font-family: sans-serif;
+}
+p.fake-link {
+  font-size: 10px;
+}
+
+li.fake-link {
+  font-size: 10px;
+}
+
+.few-clouds {
+  margin-left: 7px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.normal-font {
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
+.current-info-container {
+  align-items: flex-start;
+  justify-content: space-around;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  margin-right: 300px;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  margin-right: 4px;
+  justify-content: center;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+}
+
+.info-list {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.picture-div {
+  width: 100px;
+  height: 100px;
+}
+
+.forecast-info {
+  justify-content: space-around;;
+
+}
+
+#news-story > p {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+#news-story {
+  padding-right: 100px;
+}
+
+.forecast-info > p {
+  width: 86px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  color: rgb(23, 112, 205);
+}
+
+.blue-text {
+  color: rgb(23, 112, 205);
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.red-text {
+  color: red;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.header-text {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.for-margin {
+  padding-left: 300px;
+}
+
+h5 {
+  font-weight: lighter;
+}
+
+.last-class {
+  margin-right: 15px;
 }
