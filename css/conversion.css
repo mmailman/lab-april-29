@@ -1,0 +1,16 @@
+body{
+  background-color: gainsboro;
+}
+main{
+  margin-top:50px;
+}
+
+form{
+  height:112px;
+  width:600px;
+  padding:25px;
+}
+
+button:hover{
+background-color: skyblue;
+}
